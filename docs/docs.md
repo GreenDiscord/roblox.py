@@ -28,11 +28,17 @@ roblox.get_user_by_id()
 Args:
   Int : Roblox user id
   
+  
+  
+  
 ```py
 roblox.get_user_by_name()
 ```
 Args:
   Text : Roblox user name
+  
+  
+  
   
 ```py
 PlayerInfo.name
@@ -42,6 +48,9 @@ Args:
 Returns:
    PlayerInfo Defined Name
    
+   
+   
+   
 ```py
 PlayerInfo.id
 ```
@@ -50,6 +59,9 @@ Args:
 Returns:
   PlayerInfo Defined ID
   
+  
+  
+  
 ```py
 PlayerInfo.description
 ```
@@ -57,6 +69,9 @@ Args:
   None
 Returns:
    PlayerInfo Defined Description
+   
+   
+   
 
 ```py
 await PlayerInfo.friends()
@@ -68,6 +83,9 @@ Returns:
 
 Note : For friend count, use the built in method ```PlayerInfo.friends_count```, if that doesn't work, use len() on the Function Above.
 
+
+
+
 ```py
 PlayerInfo.is_banned()
 ```
@@ -75,6 +93,9 @@ Args:
   None
 Returns:
   True or false, depending on if the user is banned or not.
+  
+  
+  
   
 ```py
 await PlayerInfo.avatar()
