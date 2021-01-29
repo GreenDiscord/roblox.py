@@ -5,7 +5,7 @@
 
 You have to first define the client, which you do py using the "Client" attribute in roblox.py
 
-```
+```py
 roblox = Client()
 ```
 Optional args:
@@ -13,7 +13,7 @@ Optional args:
 
 Next this lib is async so we need to define the function!
 
-```
+```py
 async def main():
 ```
 Note : If your using discord.py, you have to define ```ctx``` in the brackets!
@@ -22,13 +22,13 @@ Now for the juicy stuff!
 
 # Player Info
 
-```
+```py
 roblox.get_user_by_id()
 ```
 Args:
   Int : Roblox user id
   
-```
+```py
 roblox.get_user_by_name()
 ```
 Args:
